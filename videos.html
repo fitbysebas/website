@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutinas - Fit by Sebas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="imagenes/logoSQ.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">FitBy<span>Sebas</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Mí</a></li>
+                    <li><a href="videos.html" class="active">Rutinas</a></li>
+                    <li><a href="blog.html">Tips</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="videos-hero">
+        <div class="container">
+            <h1>Rutinas <span>Deportivas</span></h1>
+            <p>Aprende técnicas correctas y sigue programas estructurados</p>
+        </div>
+    </section>
+
+    <section class="video-categories">
+        <div class="container">
+            <h2>Categorías</h2>
+            <div class="category-buttons">
+                <button class="active" data-category="all">Todos</button>
+                <button data-category="principiantes">Principiantes</button>
+                <button data-category="intermedio">Intermedio</button>
+                <button data-category="avanzado">Avanzado</button>
+                <button data-category="cardio">Cardio</button>
+                <button data-category="fuerza">Fuerza</button>
+                <button data-category="flexibilidad">Flexibilidad</button>
+                <button data-category="resistencia">Resistencia</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-gallery">
+        <div class="container">
+            <div class="video-item" data-category="avanzado, fuerza, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/UG4gTYqKDlE/hqdefault.jpg" alt="Super serie cuadriceps">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Super serie para cuádriceps (Extensión de rodilla)</h3>
+                <p>Avanzado | Fuerza | Resistencia</p>
+            </div>
+            
+            <div class="video-item" data-category="avanzado, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/jF24Rztu9LU/hqdefault.jpg" alt="Super serie gluteos">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Super serie para glúteos (Extensión de cadera)</h3>
+                <p>Avanzado | Resistencia</p>
+            </div>
+            
+            <div class="video-item" data-category="avanzado, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/OOKEdhGv59Y/hqdefault.jpg" alt="Variante prensa vertical">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Super serie en prensa vertical</h3>
+                <p>Avanzado | Resistencia</p>
+            </div>
+            
+            <div class="video-item" data-category="avanzado, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/S30TVedjHhk/hqdefault.jpg" alt="Sentadilla bulgara">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Conociendo el mas allá - Sentadilla búlgara</h3>
+                <p>Avanzado | Resistencia</p>
+            </div>
+            
+            <div class="video-item" data-category="avanzado, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/R9oXs-6COS4/hqdefault.jpg" alt="gluteo y pierna">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Pierna y glúteos | con step, mancuernas y colchoneta(opcional)</h3>
+                <p>Avanzado | Resistencia</p>
+            </div>
+            
+            <div class="video-item" data-category="principiantes, fuerza">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/yCw-bMs5xJ4/hqdefault.jpg" alt="pull through">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Glúteos parte 1 | Pull through</h3>
+                <p>20 min | Cardio</p>
+            </div>
+            <div class="video-item" data-category="intermedio, resistencia">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/_G6LmrUve9Y/hqdefault.jpg" alt="sentadilla sumo t.u.t">
+                    <div class="play-button"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Sentadilla sumo T.U.T</h3>
+                <p>Intermedio | Resistencia</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FitBySebas</h3>
+                    <p>Transformando vidas a través del fitness.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre Mí</a></li>
+                        <li><a href="videos.html">Rutinas</a></li>
+                        <li><a href="blog.html">Tips</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-phone"></i> +57 316 629 12 14</p>
+                    <p><i class="fas fa-envelope"></i> sebasquicenog4@gmail.com</p>
+                    <div class="socials">
+                        <a href="https://wa.me/3166291214" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/sebasquiceno4?igsh=NTNneWtuaGZzdWp3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@sebasquiceno4?_t=ZS-8uznOCShLgW&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/channel/UCPRPtIxQm60OADOTSnUhyqw" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/share/12HCCW59udt/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitBySebas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
